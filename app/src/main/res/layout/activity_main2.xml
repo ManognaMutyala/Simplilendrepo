@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mmanoghna.simplifiedlearning.Main2Activity">
+    <TextView
+        android:id="@+id/newapp"
+        style="@style/CategoryStyle"
+        android:text="@string/Category_NewApplication"
+        android:textColorHighlight="#3F51B5"
+        android:onClick="Newapp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+    <TextView
+        android:id="@+id/existapp"
+        style="@style/CategoryStyle"
+        android:text="@string/Category_ExistingApplication" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+    <TextView
+        android:id="@+id/proapp"
+        style="@style/CategoryStyle"
+        android:text="@string/Category_ProcessApplication" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Simplilend</string>
+    <string name="Category_NewApplication">NewJLGApplication</string>
+    <string name="Category_ExistingApplication">ExistingJLGApplication</string>
+    <string name="Category_ProcessApplication">ProcessJLGApplication</string>
+    <string name="no_group">Sorry, no group members</string>
+    <string name="menu_add">add new group</string>
+    <string name="menu_modify">modify group</string>
+    <string name="menu_view">view group</string>
+    <string name="label_name">First Name of Borrower</string>
+    <string name="label_name1">Last Name of Borrower</string>
+    <string name="label_dob">Date of Birth</string>
+    <string name="label_address">Address</string>
+    <string name="label_photo">Photo</string>
+
+    <string name="label_aadhar">Aadhar Number</string>
+    <string name="pan_number">Pan Number</string>
+    <string name="bank_statement">Name Of Bank</string>
+
+
+</resources>
